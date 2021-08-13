@@ -268,9 +268,8 @@ p {
 #services .services {
 	flex-direction: column;
 	text-align: center;
-	max-width: 1500px;
 	margin: 0 auto;
-	padding: 100px 0;
+	background-color: black;
 }
 #services .service-top {
 	max-width: 500px;
@@ -281,7 +280,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 #services .service-item {
 	flex-basis: 80%;
@@ -291,12 +290,13 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(./img/nick.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	background-color: rgb(34, 139, 57);
 }
 #services .service-item::after {
 	content: '';
@@ -305,7 +305,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #173f6d 0%, #485563 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -316,7 +316,7 @@ p {
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: white;
+	color: rgb(22, 153, 230);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
@@ -324,10 +324,23 @@ p {
 	color: white;
 	text-align: left;
 }
+.view-btn {
+    text-decoration: none;
+    text-align: center;
+    width: 130px;
+    padding: 10px 0;
+    background-color: #404041;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
 /* End Services Section */
 
 /* Projects section */
-#projects .projects {
+/* #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -396,7 +409,7 @@ p {
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
-}
+} */
 /* End Projects section */
 
 /* About Section */
