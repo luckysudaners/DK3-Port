@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import 'https://fonts.googleapis.com/css?family=Oswald:300, 400, 700&display=swap';
 * {
 	padding: 0;
 	margin: 0;
@@ -6,7 +6,7 @@
 }
 html {
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	scroll-behavior: smooth;
 }
 a {
@@ -24,6 +24,7 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
+
 p {
 	color: black;
 	font-size: 1.4rem;
@@ -46,7 +47,6 @@ p {
 }
 
 .cta {
-	display: inline-block;
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
@@ -57,6 +57,11 @@ p {
 	margin-top: 30px;
 	transition: 0.3s ease;
 	transition-property: background-color, color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
 }
 .cta:hover {
 	color: white;
@@ -64,11 +69,12 @@ p {
 }
 .brand h1 {
 	font-size: 3rem;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: white;
 }
 .brand h1 span {
 	color: forestgreen;
+	text-transform: uppercase;
 }
 
 /* Header section */
@@ -297,6 +303,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 	background-color: rgb(34, 139, 57);
+	
 }
 #services .service-item::after {
 	content: '';
@@ -331,7 +338,7 @@ p {
     padding: 10px 0;
     background-color: #404041;
     color: whitesmoke;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-top: 20px;
     border-radius: 4px;
@@ -446,7 +453,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	border: 10px solid rgb(10, 18, 121);
 }
 #about .col-left .about-img::after {
 	content: '';
@@ -482,7 +489,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 #0000002c;
+	box-shadow: 0px 0px 24px 0 #202c992c;
 	transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
