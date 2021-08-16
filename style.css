@@ -26,7 +26,7 @@ img {
 }
 
 p {
-	color: black;
+	color: rgb(26, 107, 117);
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -65,7 +65,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: forestgreen;
+	background-color: rgb(21, 97, 40);
 }
 .brand h1 {
 	font-size: 3rem;
@@ -88,7 +88,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: rgba(0, 0, 0, 0.24);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -287,6 +287,7 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 10px;
+	
 }
 #services .service-item {
 	flex-basis: 80%;
@@ -320,6 +321,8 @@ p {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
+	
+	
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -330,6 +333,13 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+#services img:hover {
+    filter: opacity(50%);
+    transform: scale(1.1);
+}
+#services .view-btn li:hover  {
+	color: forestgreen;
 }
 .view-btn {
     text-decoration: none;
@@ -344,6 +354,13 @@ p {
     border-radius: 4px;
     align-self: flex-start;
   }
+  .view-btn:hover {
+	color: white;
+	background-color: rgb(90, 105, 126);
+	transform: scale(1.1);
+}
+
+
 /* End Services Section */
 
 /* Projects section */
