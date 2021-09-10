@@ -277,7 +277,7 @@ p {
 	text-align: left;
 	margin: 0 auto;
 	padding: 0;
-	background-color: rgb(19, 18, 18);
+	background-color: white;
 }
 #services .service-top {
 	max-width: 500px;
@@ -307,6 +307,11 @@ p {
 	overflow: hidden;
 	background-color: rgb(34, 139, 57);
 	
+}
+#services .service-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 #services .service-item::after {
 	content: '';
