@@ -333,6 +333,11 @@ p {
 	background-color: rgb(34, 139, 57);
 	
 }
+#services .service-item:hover {
+	color: white;
+	background-color: rgb(90, 105, 126);
+	transform: scale(1.1);
+}
 #services .service-img {
 	height: 100%;
 	width: 100%;
@@ -381,7 +386,7 @@ p {
     background-color: #404041;
     color: whitesmoke;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 20px;
     border-radius: 4px;
     align-self: flex-start;
