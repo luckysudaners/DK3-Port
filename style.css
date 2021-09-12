@@ -333,6 +333,23 @@ p {
 	background-color: rgb(34, 139, 57);
 	
 }
+#services .service-img {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/nick.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	background-color: rgb(34, 139, 57);
+	
+}
 #services .service-item:hover {
 	color: white;
 	background-color: rgb(90, 105, 126);
@@ -384,12 +401,12 @@ p {
     width: 130px;
     padding: 10px 0;
     background-color: #404041;
-    color: whitesmoke;
+    color: rgb(20, 211, 45);
     font-size: 1.8rem;
     font-weight: 400;
     margin-top: 20px;
     border-radius: 4px;
-    align-self: flex-start;
+	align-items: space-between;
   }
   .view-btn:hover {
 	color: white;
